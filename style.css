@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(161,157,231);
+        background: linear-gradient(339deg, rgba(161,157,231,1) 8%, rgba(34,193,195,1) 53%, rgba(253,45,195,1) 95%);
+
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    
+    
+    
+}
+button{
+    border-radius: 20px;
+    cursor: pointer;
+    
+
+}
+
+#shadow {
+    --beton: #01060b;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 0 0 2rem var(--beton);
+    background-color: var(--beton);
+    pointer-events: none;
+  }
+
+input{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: context-menu;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px; line-height: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+    color: #ffffff
+    
+
+}
+.estilo-paragrafo{
+        margin-top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: rgba(226, 210, 210, 0.586);
+        border-radius: 5px;
+}
